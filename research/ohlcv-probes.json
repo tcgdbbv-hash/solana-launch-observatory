@@ -1,0 +1,57 @@
+[
+  {
+    "name": "meteora_5m",
+    "url": "https://damm-v2.datapi.meteora.ag/pools/EpMS1H2sEKifNnfoNQzKTShJ2QoRLRzNBwbgCvwrJUM1/ohlcv?timeframe=5m&start_time=1790437304&end_time=1790523704",
+    "observed_at_utc": "2026-09-27T15:41:44.665908+00:00",
+    "error": "HTTP Error 400: Bad Request",
+    "error_body": "error code: 1010\n"
+  },
+  {
+    "name": "geckoterminal_5m",
+    "url": "https://api.geckoterminal.com/api/v2/networks/solana/pools/EqLQmwmFJHDUaatbY496xuCWNuPSqtr7jS5qkfqNWkkp/ohlcv/minute?aggregate=5&limit=100&currency=usd&token=base",
+    "observed_at_utc": "2026-09-27T15:41:44.666718+00:00",
+    "status": 200,
+    "response_metadata": {
+      "base": {
+        "name": "Launch on Bailout",
+        "symbol": "BAIL",
+        "coingecko_coin_id": null,
+        "address": "A8wNjT3RR7g9etXgvV2kUzvtTvPKhtxRZ2aZzqfxpump"
+      },
+      "quote": {
+        "name": "Wrapped SOL",
+        "symbol": "SOL",
+        "coingecko_coin_id": "wrapped-solana",
+        "address": "So11111111111111111111111111111111111111112"
+      }
+    },
+    "candles_returned": 4,
+    "sample_candles": [
+      [
+        1790523600,
+        3.3989300946289955e-06,
+        3.3989300946289955e-06,
+        3.3964359592605536e-06,
+        3.3964359592605536e-06,
+        0.019682271592837107
+      ],
+      [
+        1790523300,
+        3.4196397730930254e-06,
+        3.4196397730930254e-06,
+        3.396701869146601e-06,
+        3.3989300946289955e-06,
+        11.31900613085075
+      ],
+      [
+        1790523000,
+        5.114358927713163e-06,
+        7.309324211624693e-06,
+        3.419022652738215e-06,
+        3.4196397730930254e-06,
+        5733.447848233941
+      ]
+    ],
+    "limitation": "Endpoint functionality only. Candle units, source coverage, accuracy, and availability latency require validation."
+  }
+]

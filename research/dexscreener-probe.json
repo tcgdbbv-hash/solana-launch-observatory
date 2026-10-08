@@ -1,0 +1,67 @@
+{
+  "observed_at_utc": "2026-09-27T15:37:34.561970+00:00",
+  "url": "https://api.dexscreener.com/latest/dex/pairs/solana/EqLQmwmFJHDUaatbY496xuCWNuPSqtr7jS5qkfqNWkkp,CjH5yrrFufr56enqJi87sfGWhGXqa1EzsiYnsW8VuACD",
+  "requested_pairs": 2,
+  "status": 200,
+  "pairs_returned": 2,
+  "sample_metrics": [
+    {
+      "dexId": "pumpfun",
+      "pairAddress": "EqLQmwmFJHDUaatbY496xuCWNuPSqtr7jS5qkfqNWkkp",
+      "volume": {
+        "h24": 8162.78,
+        "h6": 8162.78,
+        "h1": 8162.78,
+        "m5": 60.55
+      },
+      "txns": {
+        "m5": {
+          "buys": 19,
+          "sells": 25
+        },
+        "h1": {
+          "buys": 95,
+          "sells": 104
+        },
+        "h6": {
+          "buys": 95,
+          "sells": 104
+        },
+        "h24": {
+          "buys": 95,
+          "sells": 104
+        }
+      },
+      "pairCreatedAt": 1790522994000
+    },
+    {
+      "dexId": "pumpfun",
+      "pairAddress": "CjH5yrrFufr56enqJi87sfGWhGXqa1EzsiYnsW8VuACD",
+      "volume": {
+        "h24": 7013.51,
+        "h6": 7013.51,
+        "h1": 7013.51,
+        "m5": 1050.52
+      },
+      "txns": {
+        "m5": {
+          "buys": 9,
+          "sells": 32
+        },
+        "h1": {
+          "buys": 102,
+          "sells": 104
+        },
+        "h6": {
+          "buys": 102,
+          "sells": 104
+        },
+        "h24": {
+          "buys": 102,
+          "sells": 104
+        }
+      },
+      "pairCreatedAt": 1790522991000
+    }
+  ]
+}

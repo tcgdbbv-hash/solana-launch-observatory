@@ -1,0 +1,6 @@
+#!/bin/zsh
+# Launch Services owns this process; Terminal owns the scanner, independently
+# of any editor. Keep the app beside the project and reuse the single launcher.
+emulate -LR zsh
+project_root="${0:A:h:h:h:h}"
+exec /usr/bin/open -a Terminal "$project_root/Launch Observatory.command"

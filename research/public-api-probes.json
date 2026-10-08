@@ -1,0 +1,939 @@
+[
+  {
+    "name": "meteora_damm_v2",
+    "url": "https://damm-v2.datapi.meteora.ag/pools?sort_by=pool_created_at%3Adesc&page=1&page_size=100",
+    "observed_at_utc": "2026-09-27T15:35:44.462561+00:00",
+    "http_status": 200,
+    "cache_headers": {
+      "Date": "Sun, 27 Sep 2026 15:35:44 GMT",
+      "cf-cache-status": "DYNAMIC"
+    },
+    "response_ms": 752,
+    "top_level_keys": [
+      "total",
+      "pages",
+      "current_page",
+      "page_size",
+      "data"
+    ],
+    "rows_returned": 100,
+    "first_row_fields": [
+      "address",
+      "name",
+      "token_x",
+      "token_y",
+      "token_x_amount",
+      "token_y_amount",
+      "created_at",
+      "vault_x",
+      "vault_y",
+      "alpha_vault",
+      "pool_config",
+      "tvl",
+      "current_price",
+      "has_farm",
+      "farm_apr",
+      "farm_apy",
+      "permanent_lock_liquidity",
+      "vested_liquidity",
+      "volume",
+      "fees",
+      "protocol_fees",
+      "fee_tvl_ratio",
+      "cumulative_metrics",
+      "is_blacklisted",
+      "launchpad",
+      "tags"
+    ],
+    "sample_rows": [
+      {
+        "address": "EpMS1H2sEKifNnfoNQzKTShJ2QoRLRzNBwbgCvwrJUM1",
+        "name": "SOL-",
+        "token_x": {
+          "address": "So11111111111111111111111111111111111111112",
+          "name": "Wrapped SOL",
+          "symbol": "SOL",
+          "decimals": 9,
+          "is_verified": true,
+          "holders": 3820662,
+          "freeze_authority_disabled": true,
+          "total_supply": 634841651.9733231,
+          "price": 121.54939410199398,
+          "market_cap": 71444665561.12991
+        },
+        "token_y": {
+          "address": "Fe31yNJS8NMb42yZzvHxdWcyXbRms2ZQJERYVsK85or6",
+          "name": "",
+          "symbol": "",
+          "decimals": 6,
+          "is_verified": false,
+          "holders": 1,
+          "freeze_authority_disabled": false,
+          "total_supply": 1000000000.0,
+          "price": 0.0,
+          "market_cap": 0.0
+        },
+        "token_x_amount": 0.0,
+        "token_y_amount": 0.0,
+        "created_at": 1790523339000,
+        "vault_x": "",
+        "vault_y": "",
+        "alpha_vault": "",
+        "pool_config": {
+          "collect_fee_mode": 1,
+          "base_fee_mode": 0,
+          "base_fee_pct": 0.25,
+          "protocol_fee_pct": 0,
+          "partner_fee_pct": 0,
+          "referral_fee_pct": 0,
+          "dynamic_fee_initialized": false,
+          "compounding_fee_pct": 0.0,
+          "pool_type": 0,
+          "concentrated_liquidity": false,
+          "min_price": 0.0,
+          "max_price": 0.0,
+          "activation_type": 0,
+          "activation_point": 0,
+          "has_fee_scheduler": false,
+          "is_fee_scheduler_active": false
+        },
+        "tvl": 0.0,
+        "current_price": 0.0,
+        "has_farm": false,
+        "farm_apr": 0.0,
+        "farm_apy": 0.0,
+        "permanent_lock_liquidity": 0.0,
+        "vested_liquidity": {
+          "months_3": 0.0,
+          "months_6": 0.0
+        },
+        "volume": {
+          "30m": 0.0,
+          "1h": 0.0,
+          "2h": 0.0,
+          "4h": 0.0,
+          "12h": 0.0,
+          "24h": 0.0
+        },
+        "fees": {
+          "30m": 0.0,
+          "1h": 0.0,
+          "2h": 0.0,
+          "4h": 0.0,
+          "12h": 0.0,
+          "24h": 0.0
+        },
+        "protocol_fees": {
+          "30m": 0.0,
+          "1h": 0.0,
+          "2h": 0.0,
+          "4h": 0.0,
+          "12h": 0.0,
+          "24h": 0.0
+        },
+        "fee_tvl_ratio": {
+          "30m": 0.0,
+          "1h": 0.0,
+          "2h": 0.0,
+          "4h": 0.0,
+          "12h": 0.0,
+          "24h": 0.0
+        },
+        "cumulative_metrics": {
+          "volume": 0.0,
+          "fees": 0.0
+        },
+        "is_blacklisted": false,
+        "launchpad": "",
+        "tags": []
+      },
+      {
+        "address": "5RPThX4HGsBx5UNEbmX1rURKvhTqkXxF26obS8i87bGE",
+        "name": "FXFUN-SOL",
+        "token_x": {
+          "address": "7rm6L6rqPQAtJf9aPWXvun2YFisRgnvpxJm1gTdKpump",
+          "name": "ForexFun",
+          "symbol": "FXFUN",
+          "decimals": 6,
+          "is_verified": false,
+          "holders": 100,
+          "freeze_authority_disabled": true,
+          "total_supply": 1000000000.0,
+          "price": 0.0,
+          "market_cap": 0.0
+        },
+        "token_y": {
+          "address": "So11111111111111111111111111111111111111112",
+          "name": "Wrapped SOL",
+          "symbol": "SOL",
+          "decimals": 9,
+          "is_verified": true,
+          "holders": 3820662,
+          "freeze_authority_disabled": true,
+          "total_supply": 634841651.9733231,
+          "price": 121.5425473705965,
+          "market_cap": 71440641168.91887
+        },
+        "token_x_amount": 0.0,
+        "token_y_amount": 0.0,
+        "created_at": 1790523330000,
+        "vault_x": "",
+        "vault_y": "",
+        "alpha_vault": "",
+        "pool_config": {
+          "collect_fee_mode": 1,
+          "base_fee_mode": 0,
+          "base_fee_pct": 0.1,
+          "protocol_fee_pct": 0,
+          "partner_fee_pct": 0,
+          "referral_fee_pct": 0,
+          "dynamic_fee_initialized": false,
+          "compounding_fee_pct": 0.0,
+          "pool_type": 0,
+          "concentrated_liquidity": false,
+          "min_price": 0.0,
+          "max_price": 0.0,
+          "activation_type": 0,
+          "activation_point": 0,
+          "has_fee_scheduler": false,
+          "is_fee_scheduler_active": false
+        },
+        "tvl": 0.0,
+        "current_price": 0.0,
+        "has_farm": false,
+        "farm_apr": 0.0,
+        "farm_apy": 0.0,
+        "permanent_lock_liquidity": 0.0,
+        "vested_liquidity": {
+          "months_3": 0.0,
+          "months_6": 0.0
+        },
+        "volume": {
+          "30m": 0.0,
+          "1h": 0.0,
+          "2h": 0.0,
+          "4h": 0.0,
+          "12h": 0.0,
+          "24h": 0.0
+        },
+        "fees": {
+          "30m": 0.0,
+          "1h": 0.0,
+          "2h": 0.0,
+          "4h": 0.0,
+          "12h": 0.0,
+          "24h": 0.0
+        },
+        "protocol_fees": {
+          "30m": 0.0,
+          "1h": 0.0,
+          "2h": 0.0,
+          "4h": 0.0,
+          "12h": 0.0,
+          "24h": 0.0
+        },
+        "fee_tvl_ratio": {
+          "30m": 0.0,
+          "1h": 0.0,
+          "2h": 0.0,
+          "4h": 0.0,
+          "12h": 0.0,
+          "24h": 0.0
+        },
+        "cumulative_metrics": {
+          "volume": 0.0,
+          "fees": 0.0
+        },
+        "is_blacklisted": false,
+        "launchpad": "met-dbc",
+        "tags": []
+      }
+    ],
+    "newest_pool_created_at": 1790523339000,
+    "newest_pool_age_seconds_at_fetch": 5.5,
+    "returned_sorted_by_created_at_desc": true
+  },
+  {
+    "name": "meteora_dlmm",
+    "url": "https://dlmm.datapi.meteora.ag/pools?sort_by=pool_created_at%3Adesc&page=1&page_size=100",
+    "observed_at_utc": "2026-09-27T15:35:44.463341+00:00",
+    "http_status": 200,
+    "cache_headers": {
+      "Date": "Sun, 27 Sep 2026 15:35:45 GMT",
+      "cf-cache-status": "DYNAMIC"
+    },
+    "response_ms": 1083,
+    "top_level_keys": [
+      "total",
+      "pages",
+      "current_page",
+      "page_size",
+      "data"
+    ],
+    "rows_returned": 100,
+    "first_row_fields": [
+      "address",
+      "name",
+      "token_x",
+      "token_y",
+      "reserve_x",
+      "reserve_y",
+      "token_x_amount",
+      "token_y_amount",
+      "created_at",
+      "reward_mint_x",
+      "reward_mint_y",
+      "pool_config",
+      "dynamic_fee_pct",
+      "tvl",
+      "current_price",
+      "apr",
+      "apy",
+      "has_farm",
+      "farm_apr",
+      "farm_apy",
+      "volume",
+      "fees",
+      "protocol_fees",
+      "fee_tvl_ratio",
+      "cumulative_metrics",
+      "is_blacklisted",
+      "launchpad",
+      "tags"
+    ],
+    "sample_rows": [
+      {
+        "address": "5vWtwuqK6hjdXyV3Nk7efAJvXwKfunajNTMtbTqjq5U7",
+        "name": "PEAQ-USDG",
+        "token_x": {
+          "address": "PEAQjk7SRS6rXHVFFmpRr7zrC4g5ZuEebpwTxvaLr3b",
+          "name": "peaq",
+          "symbol": "PEAQ",
+          "decimals": 9,
+          "is_verified": true,
+          "holders": 1423,
+          "freeze_authority_disabled": true,
+          "total_supply": 23512588.048772145,
+          "price": 0.0426549571644425,
+          "market_cap": 1002928.4360455584
+        },
+        "token_y": {
+          "address": "2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
+          "name": "Global Dollar",
+          "symbol": "USDG",
+          "decimals": 6,
+          "is_verified": true,
+          "holders": 21309,
+          "freeze_authority_disabled": false,
+          "total_supply": 674689579.624326,
+          "price": 0.9998725327044256,
+          "market_cap": 674603578.768259
+        },
+        "reserve_x": "5eMV1WDdqYBXJG2fazY4YscSbnNq2s59Mc95d66E4vCp",
+        "reserve_y": "6jCWTTx313JxZi2M39hrukj7krD9aQYKXoNBUhch8C3r",
+        "token_x_amount": 28197.409349104997,
+        "token_y_amount": 0.0,
+        "created_at": 1790523183000,
+        "reward_mint_x": "11111111111111111111111111111111",
+        "reward_mint_y": "11111111111111111111111111111111",
+        "pool_config": {
+          "bin_step": 4,
+          "base_fee_pct": 0.04,
+          "max_fee_pct": 0.0,
+          "protocol_fee_pct": 10.0,
+          "collect_fee_mode": 0
+        },
+        "dynamic_fee_pct": 0.0,
+        "tvl": 1212.2385043500622,
+        "current_price": 0.0,
+        "apr": 0.0,
+        "apy": 0.0,
+        "has_farm": false,
+        "farm_apr": 0.0,
+        "farm_apy": 0.0,
+        "volume": {
+          "30m": 0.0,
+          "1h": 0.0,
+          "2h": 0.0,
+          "4h": 0.0,
+          "12h": 0.0,
+          "24h": 0.0
+        },
+        "fees": {
+          "30m": 0.0,
+          "1h": 0.0,
+          "2h": 0.0,
+          "4h": 0.0,
+          "12h": 0.0,
+          "24h": 0.0
+        },
+        "protocol_fees": {
+          "30m": 0.0,
+          "1h": 0.0,
+          "2h": 0.0,
+          "4h": 0.0,
+          "12h": 0.0,
+          "24h": 0.0
+        },
+        "fee_tvl_ratio": {
+          "30m": 0.0,
+          "1h": 0.0,
+          "2h": 0.0,
+          "4h": 0.0,
+          "12h": 0.0,
+          "24h": 0.0
+        },
+        "cumulative_metrics": {
+          "volume": 0.0,
+          "fees": 0.0
+        },
+        "is_blacklisted": false,
+        "launchpad": "",
+        "tags": []
+      },
+      {
+        "address": "D8VtvdAWSinNqjNdvcxy9uQc3vpMDARxMJA41o48LabV",
+        "name": "JACKS-SOL",
+        "token_x": {
+          "address": "3XJmZvrKynPaZDLTBRKj9yEEwVm6q633pqccKws7pump",
+          "name": "Jacks",
+          "symbol": "JACKS",
+          "decimals": 6,
+          "is_verified": false,
+          "holders": 9,
+          "freeze_authority_disabled": true,
+          "total_supply": 841700419.05487,
+          "price": 3.0157935179220306e-06,
+          "market_cap": 2538.3946678179336
+        },
+        "token_y": {
+          "address": "So11111111111111111111111111111111111111112",
+          "name": "Wrapped SOL",
+          "symbol": "SOL",
+          "decimals": 9,
+          "is_verified": true,
+          "holders": 3820662,
+          "freeze_authority_disabled": true,
+          "total_supply": 634841651.9733231,
+          "price": 121.55437833889178,
+          "market_cap": 71447595210.76636
+        },
+        "reserve_x": "7xNkB1wsMjhL2rC5mKWbQ5beuerJzVN2ZxSvEWbo1Ep6",
+        "reserve_y": "AFWKQuZL9QCwyRNELP45WXEHPHNWxCezZK2Ysa6dCgmM",
+        "token_x_amount": 0.0,
+        "token_y_amount": 0.0,
+        "created_at": 1790522711000,
+        "reward_mint_x": "11111111111111111111111111111111",
+        "reward_mint_y": "11111111111111111111111111111111",
+        "pool_config": {
+          "bin_step": 125,
+          "base_fee_pct": 10.0,
+          "max_fee_pct": 0.0,
+          "protocol_fee_pct": 10.0,
+          "collect_fee_mode": 0
+        },
+        "dynamic_fee_pct": 0.0,
+        "tvl": 0.0,
+        "current_price": 0.0,
+        "apr": 0.0,
+        "apy": 0.0,
+        "has_farm": false,
+        "farm_apr": 0.0,
+        "farm_apy": 0.0,
+        "volume": {
+          "30m": 0.0,
+          "1h": 0.0,
+          "2h": 0.0,
+          "4h": 0.0,
+          "12h": 0.0,
+          "24h": 0.0
+        },
+        "fees": {
+          "30m": 0.0,
+          "1h": 0.0,
+          "2h": 0.0,
+          "4h": 0.0,
+          "12h": 0.0,
+          "24h": 0.0
+        },
+        "protocol_fees": {
+          "30m": 0.0,
+          "1h": 0.0,
+          "2h": 0.0,
+          "4h": 0.0,
+          "12h": 0.0,
+          "24h": 0.0
+        },
+        "fee_tvl_ratio": {
+          "30m": 0.0,
+          "1h": 0.0,
+          "2h": 0.0,
+          "4h": 0.0,
+          "12h": 0.0,
+          "24h": 0.0
+        },
+        "cumulative_metrics": {
+          "volume": 0.0,
+          "fees": 0.0
+        },
+        "is_blacklisted": false,
+        "launchpad": "pump.fun",
+        "tags": []
+      }
+    ],
+    "newest_pool_created_at": 1790523183000,
+    "newest_pool_age_seconds_at_fetch": 161.5,
+    "returned_sorted_by_created_at_desc": true
+  },
+  {
+    "name": "geckoterminal_new",
+    "url": "https://api.geckoterminal.com/api/v2/networks/solana/new_pools?page=1",
+    "observed_at_utc": "2026-09-27T15:35:44.463489+00:00",
+    "http_status": 200,
+    "cache_headers": {
+      "Date": "Sun, 27 Sep 2026 15:35:44 GMT",
+      "Cache-Control": "max-age=30, public, must-revalidate, s-maxage=60",
+      "Age": "22",
+      "cf-cache-status": "HIT"
+    },
+    "response_ms": 217,
+    "top_level_keys": [
+      "data"
+    ],
+    "rows_returned": 20,
+    "first_row_fields": [
+      "id",
+      "type",
+      "attributes",
+      "relationships"
+    ],
+    "sample_rows": [
+      {
+        "id": "solana_EqLQmwmFJHDUaatbY496xuCWNuPSqtr7jS5qkfqNWkkp",
+        "type": "pool",
+        "attributes": {
+          "base_token_price_usd": "0.00000341963977309302549118718784756762986765330529742185772759827218",
+          "base_token_price_native_currency": "0.0000000281313360174419",
+          "quote_token_price_usd": "121.559806863520193689074120634160597765621437562",
+          "quote_token_price_native_currency": "1.0",
+          "base_token_price_quote_token": "0.00000002813133602",
+          "quote_token_price_base_token": "35547547.3820363",
+          "address": "EqLQmwmFJHDUaatbY496xuCWNuPSqtr7jS5qkfqNWkkp",
+          "name": "BAIL / SOL",
+          "pool_created_at": "2026-09-27T15:29:54Z",
+          "fdv_usd": "3419.639773",
+          "market_cap_usd": null,
+          "price_change_percentage": {
+            "m5": "-29.352",
+            "m15": "-23.004",
+            "m30": "-23.004",
+            "h1": "-23.004",
+            "h6": "-23.004",
+            "h24": "-23.004"
+          },
+          "transactions": {
+            "m5": {
+              "buys": 69,
+              "sells": 93,
+              "buyers": 65,
+              "sellers": 78
+            },
+            "m15": {
+              "buys": 92,
+              "sells": 100,
+              "buyers": 87,
+              "sellers": 82
+            },
+            "m30": {
+              "buys": 92,
+              "sells": 100,
+              "buyers": 87,
+              "sellers": 82
+            },
+            "h1": {
+              "buys": 92,
+              "sells": 100,
+              "buyers": 87,
+              "sellers": 82
+            },
+            "h6": {
+              "buys": 92,
+              "sells": 100,
+              "buyers": 87,
+              "sellers": 82
+            },
+            "h24": {
+              "buys": 92,
+              "sells": 100,
+              "buyers": 87,
+              "sellers": 82
+            }
+          },
+          "volume_usd": {
+            "m5": "5733.4478482339",
+            "m15": "8147.3034859061",
+            "m30": "8147.3034859061",
+            "h1": "8147.3034859061",
+            "h6": "8147.3034859061",
+            "h24": "8147.3034859061"
+          },
+          "reserve_in_usd": "2713.5568"
+        },
+        "relationships": {
+          "base_token": {
+            "data": {
+              "id": "solana_A8wNjT3RR7g9etXgvV2kUzvtTvPKhtxRZ2aZzqfxpump",
+              "type": "token"
+            }
+          },
+          "quote_token": {
+            "data": {
+              "id": "solana_So11111111111111111111111111111111111111112",
+              "type": "token"
+            }
+          },
+          "dex": {
+            "data": {
+              "id": "pump-fun",
+              "type": "dex"
+            }
+          }
+        }
+      },
+      {
+        "id": "solana_CjH5yrrFufr56enqJi87sfGWhGXqa1EzsiYnsW8VuACD",
+        "type": "pool",
+        "attributes": {
+          "base_token_price_usd": "0.00000353337515735402162356911601942276948696040598082268826935252326",
+          "base_token_price_native_currency": "0.0000000291278425606641",
+          "quote_token_price_usd": "121.555075530379806521217054106569554400083251919",
+          "quote_token_price_native_currency": "1.0",
+          "base_token_price_quote_token": "0.00000002912784256",
+          "quote_token_price_base_token": "34331413.2489324",
+          "address": "CjH5yrrFufr56enqJi87sfGWhGXqa1EzsiYnsW8VuACD",
+          "name": "Pudgylana / SOL",
+          "pool_created_at": "2026-09-27T15:29:51Z",
+          "fdv_usd": "3533.375157",
+          "market_cap_usd": null,
+          "price_change_percentage": {
+            "m5": "-23.837",
+            "m15": "-5.905",
+            "m30": "-5.905",
+            "h1": "-5.905",
+            "h6": "-5.905",
+            "h24": "-5.905"
+          },
+          "transactions": {
+            "m5": {
+              "buys": 95,
+              "sells": 100,
+              "buyers": 70,
+              "sellers": 71
+            },
+            "m15": {
+              "buys": 102,
+              "sells": 102,
+              "buyers": 76,
+              "sellers": 73
+            },
+            "m30": {
+              "buys": 102,
+              "sells": 102,
+              "buyers": 76,
+              "sellers": 73
+            },
+            "h1": {
+              "buys": 102,
+              "sells": 102,
+              "buyers": 76,
+              "sellers": 73
+            },
+            "h6": {
+              "buys": 102,
+              "sells": 102,
+              "buyers": 76,
+              "sellers": 73
+            },
+            "h24": {
+              "buys": 102,
+              "sells": 102,
+              "buyers": 76,
+              "sellers": 73
+            }
+          },
+          "volume_usd": {
+            "m5": "5987.8109537432",
+            "m15": "6974.641168697",
+            "m30": "6974.641168697",
+            "h1": "6974.641168697",
+            "h6": "6974.641168697",
+            "h24": "6974.641168697"
+          },
+          "reserve_in_usd": "2806.1486"
+        },
+        "relationships": {
+          "base_token": {
+            "data": {
+              "id": "solana_5h5xPJ669Xhv81QFaoztfx9ns8XwWnW28aJBMRMjpump",
+              "type": "token"
+            }
+          },
+          "quote_token": {
+            "data": {
+              "id": "solana_So11111111111111111111111111111111111111112",
+              "type": "token"
+            }
+          },
+          "dex": {
+            "data": {
+              "id": "pump-fun",
+              "type": "dex"
+            }
+          }
+        }
+      }
+    ],
+    "dex_counts": {
+      "pump-fun": 15,
+      "pumpswap": 3,
+      "meteora-damm-v2": 2
+    },
+    "newest_pool_age_seconds_at_fetch": 350.5
+  },
+  {
+    "name": "raydium_launch_new",
+    "url": "https://launch-mint-v1.raydium.io/get/list?sort=new",
+    "observed_at_utc": "2026-09-27T15:35:44.463609+00:00",
+    "http_status": 200,
+    "cache_headers": {
+      "Date": "Sun, 27 Sep 2026 15:35:45 GMT",
+      "cf-cache-status": "DYNAMIC"
+    },
+    "response_ms": 821,
+    "top_level_keys": [
+      "id",
+      "success",
+      "data"
+    ],
+    "data_keys": [
+      "rows",
+      "nextPageId"
+    ],
+    "rows_returned": 100,
+    "first_row_fields": [
+      "mint",
+      "poolId",
+      "configId",
+      "creator",
+      "createAt",
+      "name",
+      "symbol",
+      "description",
+      "twitter",
+      "website",
+      "imgUrl",
+      "metadataUrl",
+      "platformInfo",
+      "configInfo",
+      "mintB",
+      "decimals",
+      "supply",
+      "marketCap",
+      "volumeA",
+      "volumeB",
+      "volumeU",
+      "finishingRate",
+      "initPrice",
+      "endPrice",
+      "totalLockedAmount",
+      "cliffPeriod",
+      "unlockPeriod",
+      "startTime",
+      "totalAllocatedShare",
+      "defaultCurve",
+      "totalSellA",
+      "totalFundRaisingB",
+      "migrateType",
+      "mintProgramA",
+      "transferFeeBasePoints",
+      "maxinumFee",
+      "cpmmCreatorFeeOn"
+    ],
+    "sample_rows": [
+      {
+        "mint": "5y23bXY3BJtFDwmtUjhE3Rpg5YDkfwvAAiViXcc5FXBv",
+        "poolId": "3HGrvQAwFenTiSaVDdgSdNGBMp5KJ8e3gQPsDHH8RPh2",
+        "configId": "993qEdGYzDAr8Cdjo8uUfAp1YR2m6Gp2sg9vywwfNzyg",
+        "creator": "bwamJzztZsepfkteWRChggmXuiiCQvpLqPietdNfSXa",
+        "createAt": 1790523309000,
+        "name": "Zipcoin",
+        "symbol": "ZC",
+        "description": "",
+        "twitter": "https://x.com/ForestManSol555/status/2104233290513162277",
+        "website": "https://axiom.trade/t/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs?chain=sol&chains=sol&pulseChains=sol,robinhood&trackerChains=sol&discoverChains=sol",
+        "imgUrl": "https://token-media.defined.fi/8453_0xce7597961d91bc86714d0c7f5642e6ff7c5dfb07_large_e5617d4340e0.png",
+        "metadataUrl": "https://md.sdfgsdfsdf.uk/metadata/nZtPKD4s",
+        "platformInfo": {
+          "pubKey": "6BwHHDg3u1854jC8PDLXvR4spTcLNaoBxLJNGC4nTESt",
+          "platformClaimFeeWallet": "5CEbueQnq1Ym2uSSx2xXds3jQAqT1BDnkA59RZobSPAG",
+          "platformLockNftWallet": "5CEbueQnq1Ym2uSSx2xXds3jQAqT1BDnkA59RZobSPAG",
+          "transferFeeExtensionAuth": "5KXDF6QnqhBj72hDtJNkkpFaQVUfbFXNybMsp3DiK6tD",
+          "cpConfigId": "CRRS5ieQmBrZjWhcj99JuGrT5tyuWDaGAXLXLFjbAtjQ",
+          "platformScale": "1000000",
+          "creatorScale": "0",
+          "burnScale": "0",
+          "feeRate": "10000",
+          "creatorFeeRate": "0",
+          "name": "StonkFun",
+          "web": "https://www.stonkfun.xyz",
+          "img": "https://www.stonkfun.xyz/stonkfun-logo.png",
+          "platformVestingWallet": "5CEbueQnq1Ym2uSSx2xXds3jQAqT1BDnkA59RZobSPAG",
+          "platformVestingScale": "0",
+          "platformCpCreator": "5CEbueQnq1Ym2uSSx2xXds3jQAqT1BDnkA59RZobSPAG",
+          "restrictCurveParam": 1,
+          "curveRuleManager": "2pMi1Sr8vnAR2GPKMHJsmgFY8Hc4cUVbmG5ARxLsRrvp"
+        },
+        "configInfo": {
+          "name": "Constant Product Curve",
+          "pubKey": "993qEdGYzDAr8Cdjo8uUfAp1YR2m6Gp2sg9vywwfNzyg",
+          "epoch": 1024,
+          "curveType": 0,
+          "index": 0,
+          "migrateFee": "0",
+          "tradeFeeRate": "2500",
+          "maxShareFeeRate": "0",
+          "minSupplyA": "10000000",
+          "maxLockRate": "999999",
+          "minSellRateA": "1",
+          "minMigrateRateA": "150000",
+          "minFundRaisingB": "1",
+          "protocolFeeOwner": "rayvTLcCMDs7P5tgpuoNA6ZYeLERegeCphdqLSgdKms",
+          "migrateFeeOwner": "rayHQtJKrtvqUs3HnhDW9RKubHRbu87eESKEYD5xosa",
+          "migrateToAmmWallet": "RAYzrepoBdjSFg7MZj2vy4XBSv2azKRXC72ztUMZMJB",
+          "migrateToCpmmWallet": "RAYpQbFNq9i3mu6cKpTKKRwwHFDeK5AuZz8xvxUrCgw",
+          "mintB": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+        },
+        "mintB": {
+          "chainId": 101,
+          "address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+          "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "logoURI": "https://img-v1.raydium.io/icon/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs.png",
+          "symbol": "WETH",
+          "name": "Wrapped Ether (Wormhole)",
+          "decimals": 8,
+          "tags": [],
+          "extensions": {}
+        },
+        "decimals": 6,
+        "supply": 1000000000,
+        "marketCap": 3426.917996198053,
+        "volumeA": 489070641.290865,
+        "volumeB": 0.79478012,
+        "volumeU": 2134.864381001457,
+        "finishingRate": 0.06,
+        "initPrice": "1.2641902786749715882e-9",
+        "endPrice": "1.857579318511358144e-8",
+        "totalLockedAmount": 0,
+        "cliffPeriod": "0",
+        "unlockPeriod": "0",
+        "startTime": 0,
+        "totalAllocatedShare": 0,
+        "defaultCurve": false,
+        "totalSellA": "793100000000000",
+        "totalFundRaisingB": "384333161",
+        "migrateType": "cpmm",
+        "mintProgramA": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "transferFeeBasePoints": 100,
+        "maxinumFee": "1000000000000000",
+        "cpmmCreatorFeeOn": 0
+      },
+      {
+        "mint": "CQR7M2oJqKXGXb9ErkmGayZh1eHw9puL6aREBYhaXpve",
+        "poolId": "7b5m8qsP4dMX92MDg1Duk3ShSM6SbV4LA4uLE9TrpK2h",
+        "configId": "993qEdGYzDAr8Cdjo8uUfAp1YR2m6Gp2sg9vywwfNzyg",
+        "creator": "7ZV54HcwtzRhZSEPskT8ox5hn9yNocK9xpe4BQXoziaP",
+        "createAt": 1790523307000,
+        "name": "Zipcoin",
+        "symbol": "zc",
+        "description": "",
+        "twitter": "https://x.com/ForestManSol555/status/2104233290513162277",
+        "website": "https://x.com/i/trending/2104230087629390165",
+        "imgUrl": "https://axiomtrading-v2.axiom-cdn.io/GNKW8Atzvx2VHDGWJU8A57eBHcvCr9THzrvUgStr5Rns.webp",
+        "metadataUrl": "https://meta.mwmwmwmwmwmwmwmwmw.uk/metadata/8f6db33e.json",
+        "platformInfo": {
+          "pubKey": "6BwHHDg3u1854jC8PDLXvR4spTcLNaoBxLJNGC4nTESt",
+          "platformClaimFeeWallet": "5CEbueQnq1Ym2uSSx2xXds3jQAqT1BDnkA59RZobSPAG",
+          "platformLockNftWallet": "5CEbueQnq1Ym2uSSx2xXds3jQAqT1BDnkA59RZobSPAG",
+          "transferFeeExtensionAuth": "5KXDF6QnqhBj72hDtJNkkpFaQVUfbFXNybMsp3DiK6tD",
+          "cpConfigId": "CRRS5ieQmBrZjWhcj99JuGrT5tyuWDaGAXLXLFjbAtjQ",
+          "platformScale": "1000000",
+          "creatorScale": "0",
+          "burnScale": "0",
+          "feeRate": "10000",
+          "creatorFeeRate": "0",
+          "name": "StonkFun",
+          "web": "https://www.stonkfun.xyz",
+          "img": "https://www.stonkfun.xyz/stonkfun-logo.png",
+          "platformVestingWallet": "5CEbueQnq1Ym2uSSx2xXds3jQAqT1BDnkA59RZobSPAG",
+          "platformVestingScale": "0",
+          "platformCpCreator": "5CEbueQnq1Ym2uSSx2xXds3jQAqT1BDnkA59RZobSPAG",
+          "restrictCurveParam": 1,
+          "curveRuleManager": "2pMi1Sr8vnAR2GPKMHJsmgFY8Hc4cUVbmG5ARxLsRrvp"
+        },
+        "configInfo": {
+          "name": "Constant Product Curve",
+          "pubKey": "993qEdGYzDAr8Cdjo8uUfAp1YR2m6Gp2sg9vywwfNzyg",
+          "epoch": 1024,
+          "curveType": 0,
+          "index": 0,
+          "migrateFee": "0",
+          "tradeFeeRate": "2500",
+          "maxShareFeeRate": "0",
+          "minSupplyA": "10000000",
+          "maxLockRate": "999999",
+          "minSellRateA": "1",
+          "minMigrateRateA": "150000",
+          "minFundRaisingB": "1",
+          "protocolFeeOwner": "rayvTLcCMDs7P5tgpuoNA6ZYeLERegeCphdqLSgdKms",
+          "migrateFeeOwner": "rayHQtJKrtvqUs3HnhDW9RKubHRbu87eESKEYD5xosa",
+          "migrateToAmmWallet": "RAYzrepoBdjSFg7MZj2vy4XBSv2azKRXC72ztUMZMJB",
+          "migrateToCpmmWallet": "RAYpQbFNq9i3mu6cKpTKKRwwHFDeK5AuZz8xvxUrCgw",
+          "mintB": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+        },
+        "mintB": {
+          "chainId": 101,
+          "address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+          "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "logoURI": "https://img-v1.raydium.io/icon/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs.png",
+          "symbol": "WETH",
+          "name": "Wrapped Ether (Wormhole)",
+          "decimals": 8,
+          "tags": [],
+          "extensions": {}
+        },
+        "decimals": 6,
+        "supply": 1000000000,
+        "marketCap": 3416.5606990054052,
+        "volumeA": 315707846.55868506,
+        "volumeB": 0.4669013000000001,
+        "volumeU": 1254.1468133516923,
+        "finishingRate": 0.04,
+        "initPrice": "1.2644640654828160907e-9",
+        "endPrice": "1.8579816143064282262e-8",
+        "totalLockedAmount": 0,
+        "cliffPeriod": "0",
+        "unlockPeriod": "0",
+        "startTime": 0,
+        "totalAllocatedShare": 0,
+        "defaultCurve": false,
+        "totalSellA": "793100000000000",
+        "totalFundRaisingB": "384416396",
+        "migrateType": "cpmm",
+        "mintProgramA": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "transferFeeBasePoints": 100,
+        "maxinumFee": "1000000000000000",
+        "cpmmCreatorFeeOn": 0
+      }
+    ]
+  }
+]

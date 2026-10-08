@@ -1,0 +1,11 @@
+{
+  "observed_at_utc": "2026-09-27T15:35:44.316Z",
+  "endpoint": "wss://pumpportal.fun/api/data",
+  "subscription": "subscribeMigration",
+  "used_api_key": false,
+  "opened": true,
+  "duration_seconds": 15,
+  "messages": [{"message": "Subscribed to 'migration' events."}],
+  "migration_events_received": 0,
+  "limitation": "Acknowledgement only; event delivery, completeness and latency were not established."
+}

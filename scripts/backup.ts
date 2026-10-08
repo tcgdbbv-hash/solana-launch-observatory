@@ -1,0 +1,10 @@
+import { backup, DatabaseSync } from 'node:sqlite';
+import { existsSync, mkdirSync } from 'node:fs';
+import { resolve } from 'node:path';
+if(existsSync('.env'))process.loadEnvFile('.env');
+const source=resolve(process.env.DATA_DIR||'data','observatory.sqlite');
+if(!existsSync(source))throw new Error('Start the scanner once before creating a backup.');
+mkdirSync('backups',{recursive:true});
+const destination=resolve('backups',`observatory-${new Date().toISOString().replace(/[:.]/g,'-')}.sqlite`);
+const db=new DatabaseSync(source,{readOnly:true});await backup(db,destination);db.close();
+console.log(`Consistent database backup saved to ${destination}`);
